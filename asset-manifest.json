@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/azrek_task_page1/static/css/main.2d5a4efe.css",
+    "main.js": "/azrek_task_page1/static/js/main.1ffde495.js",
+    "static/media/Frame.png": "/azrek_task_page1/static/media/Frame.5819b95c38bc3d16884f.png",
+    "static/media/PHP_1_.png": "/azrek_task_page1/static/media/PHP_1_.51451412b35db443c22c.png",
+    "static/media/group43.png": "/azrek_task_page1/static/media/group43.919d833bf7f49a0a3706.png",
+    "static/media/Group 45.png": "/azrek_task_page1/static/media/Group 45.efc3c93d75258c0bb84d.png",
+    "static/media/Group 44.png": "/azrek_task_page1/static/media/Group 44.72f1d385d4425c4f7368.png",
+    "static/media/Frame (1).png": "/azrek_task_page1/static/media/Frame (1).8fec06c3656a0c0056bc.png",
+    "static/media/Frame (2).png": "/azrek_task_page1/static/media/Frame (2).d3a166b4b62ad32f0e8d.png",
+    "static/media/Frame (3).png": "/azrek_task_page1/static/media/Frame (3).d8e4702e8b90cafc7ac2.png",
+    "static/media/wave (1).svg": "/azrek_task_page1/static/media/wave (1).0c1f44f98c5be02e4a54.svg",
+    "index.html": "/azrek_task_page1/index.html",
+    "main.2d5a4efe.css.map": "/azrek_task_page1/static/css/main.2d5a4efe.css.map",
+    "main.1ffde495.js.map": "/azrek_task_page1/static/js/main.1ffde495.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d5a4efe.css",
+    "static/js/main.1ffde495.js"
+  ]
+}
