@@ -1,0 +1,105 @@
+ footer{
+    padding: 10px;
+    height: 502px;
+    background-image: url(../../images/wave\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+ footer .wave-container {
+    margin-top: 25%;
+  }
+  footer .wave-container .links{
+    height: 16px;
+  width: 545px;
+  }
+ footer .wave-container .image_text{
+    max-width: 100%;
+    text-align: right;
+  }
+ footer .wave-container .image_text img{
+   height: 53px;
+  width: 230px;
+  
+  }
+ footer .wave-container .image_text p{
+    width: 400px;
+    font-family: 'DIN Next LT Arabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;  
+    text-align: right;  
+    color: #333333;
+  }
+   footer .navigation #link {
+    text-decoration: none;
+    color: var(--main-color);
+    height: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0;
+  }
+  .active__menu {
+    color: #007ee5 !important;
+  }
+ footer p{
+    text-align: center;
+  font-family: 'DIN Next LT Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #333333;
+  }
+ footer p .ac_color{
+    color: #5CE3EA;
+  }
+  @media only screen and (max-width: 992px){
+    .home footer{
+        width: 100%;
+          }
+         footer .wave-container {
+            margin-top: 25%;
+            flex-wrap: wrap;
+          }
+         footer .wave-container .links{
+            display: none !important;
+          }
+         footer .wave-container .image_text{
+            max-width: 100%;
+            text-align: center;
+          }
+          footer .wave-container .image_text img{
+           height: 43px;
+          width: 190px;
+          margin-bottom: 20px;
+          }
+  }
+  @media only screen and (max-width: 768px){
+    
+     footer .wave-container {
+        margin-top: 15rem;
+        flex-wrap: wrap;
+      }
+       footer .wave-container .links{
+        display: none !important;
+      }
+       footer .wave-container .image_text{
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+       footer .wave-container .image_text img{
+       height: 35px;
+      width: 160px;
+      margin-bottom: 20px;
+      }
+       footer .wave-container .image_text p{
+        width: 300px;
+        margin: auto;
+        text-align: center;
+      }
+  }

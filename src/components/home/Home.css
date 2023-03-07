@@ -1,0 +1,539 @@
+.header {
+  background: #5ce3ea;
+  height: 900px;
+}
+.header .content {
+  position: absolute;
+  margin: auto;
+  top: 100px;
+  left: 40px;
+  justify-content: space-around;
+}
+.header .image {
+  width: 100%;
+}
+.header .image img {
+  width: 100%;
+  transform: matrix(0.98, 0.2, 0.2, -0.98, 0, 0);
+  transform: rotate(360deg);
+}
+.header .text {
+  max-width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 20px;
+}
+.header .text h1 {
+  margin-top: -100px;
+  width: 500px;
+  height: 128px;
+  font-family: "DIN Next LT Arabic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: right;
+  color: var(--main-color);
+}
+.header .text p {
+  width: 500px;
+  height: 64px;
+  font-family: "DIN Next LT Arabic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  color: var(--main-color);
+}
+.header .wave {
+  position: absolute;
+  top: 41rem;
+  z-index: 2;
+}
+/* end header */
+.adv {
+  margin-top: 100px;
+}
+.adv .text-adv {
+    width: 685px;
+    margin:0 auto 25px;
+}
+.adv .text-adv span {
+  width: 84px;
+  height: 24px;
+  font-family: "DIN Next LT Arabic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #5ce3ea;
+}
+.adv .text-adv h2 {
+  width: 685px;
+  margin: auto;
+  height: 56px;
+  font-family: "DIN Next LT Arabic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+color: var(--main-color);
+margin: 15px 0;
+}
+.adv .text-adv p {
+    max-width: 100%;
+width: 568px;
+margin: auto;
+height: 50px;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #333333;
+}
+.adv .products{
+    margin: 50px 0;
+    display: flex;
+    gap: 20px;
+}
+.adv .products .card{
+
+    text-align: center;
+width: 370px;
+height: 355px;
+background: #FFFFFF;
+box-shadow: 0px 0px 100px rgba(213, 213, 213, 0.25);
+border-radius: 40px;
+border: none;
+transition: 0.3s ease-in-out;
+}
+.adv .products .card:hover{
+  transform: translateX(0.4rem) translateY(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.adv .products .card .image{
+    margin-top: -30px;
+}
+.adv .products .card img{
+    max-width: 100%;
+   margin: auto;
+    height: 216px;
+    width: 200px;
+}
+.adv .products .card h3{
+width: 188px;
+margin: auto;
+height: 32px;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: var(--main-color);
+}
+.adv .products .card p{
+width: 222px;
+margin: auto;
+height: 48px;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #333333;
+}
+/* end adv */
+.home .learning-content {
+    margin-top: 50px;
+}
+.home .learning-content h2{
+    width: 483px;
+    height: 112px;
+   font-family: 'DIN Next LT Arabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: right;
+    color:var(--main-color);
+}
+.home .learning-boxes .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+width: 270px;
+height: 216px;
+background: #FFFFFF;
+box-shadow: 0px 0px 100px rgba(213, 213, 213, 0.25);
+border-radius: 40px;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+}
+.home .learning-boxes .box:hover{
+  transform: translateX(0.4rem) translateY(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.home .learning-boxes img{
+  max-width: 72px;
+height: 72px;
+}
+.home .learning-boxes h3{
+height: 24px;
+text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+color: #002A4C;
+}
+/* end learning-box */
+.home .content-type{
+  margin-top: 100px;
+}
+.home .content-type span{
+margin: auto;
+width: 451px;
+height: 56px;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: var(--main-color);
+}
+.home .content-type .flex-type{
+  max-width: 100%;
+  margin-top: 100px;
+}
+.home .content-type .text-type{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.home .content-type .text-type h3{
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+text-align: right;
+color: var(--second-color);
+}
+.home .content-type .text-type p{
+  width: 400px;
+height: 72px;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color:var(--main-color);
+}
+.home .content-type .image-type{
+  max-width: 100%;
+}
+.home .content-type  img{
+  width: 350px;
+}
+/* end content-type */
+@media only screen and (max-width: 992px){
+  .header {
+    height: 1220px;
+  }
+  .header .content{
+    justify-content: center;
+    left: 120px;
+  }
+  .header .content .content_row{
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header .image {
+   max-width: 100%;
+   margin: auto;
+   text-align: center;
+    }
+  .header .image img{
+    width: 500px;
+   margin-left: 35px;
+  }
+  .header .text {
+   margin: 80px 0 0 35px;
+
+  }
+  .header .text h1 {
+    font-size: 36px;
+  }
+  .header .text p {
+    font-size: 18px;
+  }
+  .header .text button{
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .header .wave {
+  top: 65rem;
+
+  }
+  /* end header */
+  .adv .text-adv h2{
+    font-size: 38px;
+  }
+  .adv .text-adv p{
+    font-size: 16px;
+  }
+  .adv .products{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .adv .products .card{
+width: 300px;
+height: 325px;
+margin-bottom: 20px;
+}
+.adv .products .card img{
+  height: 186px;
+  width: 180px;
+}
+.adv .products .card h3{
+width: 170px;
+height: 28px;
+font-size: 20px;
+}
+.adv .products .card p{
+width: 200px;
+height: 38px;
+font-size: 16px;
+}
+/* end card */
+.home .learning-content h2{
+  width: 450px;
+  height: 100px;
+  font-size: 38px;
+}
+.home .learning-content button{
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+}
+.home .learning-boxes {
+  flex-wrap: wrap;
+}
+.home .learning-boxes .box{
+  gap: 10px;
+width: 240px;
+height: 190px;
+margin-bottom: 20px;
+background: #FFFFFF;
+box-shadow: 0px 0px 100px rgba(213, 213, 213, 0.25);
+border-radius: 40px;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+}
+.home .learning-boxes img{
+  max-width: 60px;
+height:60px;
+}
+.home .learning-boxes h3{
+height: 19px;
+font-size: 20px;
+}
+.home .content-type span{
+  width: 400px;
+  height: 46px;
+  font-size: 38px;
+  }
+  /* end boxes */
+  .home .content-type .flex-type{
+    max-width: 100%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .home .content-type .text-type{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .home .content-type .text-type h3{
+  font-size: 38px;
+  text-align: center;
+  }
+  .home .content-type .text-type p{
+    width: 400px;
+  height: 72px;
+  font-family: 'DIN Next LT Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color:var(--main-color);
+  }
+  .home .content-type .image-type{
+    max-width: 100%;
+  }
+  .home .content-type  img{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 1100px;
+  }
+  .header .content{
+    justify-content: center;
+    left: 0;
+  }
+  .header .content .content_row{
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header .image {
+   max-width: 100%;
+   margin: auto;
+   text-align: center;
+    }
+  .header .image img{
+    width: 300px;
+   margin: 70px 0 70px 40px;
+  }
+  .header .text {
+    width: 300px;
+   margin: 80px 0 0 35px;
+
+  }
+  .header .text h1 {
+    max-width: 100%;
+    font-size: 26px;
+  }
+  .header .text p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .header .text button{
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+  }
+  .header .wave {
+  top: 63.5rem;
+
+  }
+  .adv .text-adv{
+    max-width: 100%;
+  }
+  .adv .text-adv h2{
+    font-size: 22px;
+    max-width: 100%;
+  }
+  .adv .text-adv p{
+    font-size: 16px;
+    width: 340px;
+    max-width: 100%;
+    margin-bottom: 70px;
+  }
+  .adv .products{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .adv .products .card{
+width: 300px;
+height: 325px;
+margin-bottom: 20px;
+}
+.adv .products .card img{
+  height: 186px;
+  width: 180px;
+}
+.adv .products .card h3{
+width: 170px;
+height: 28px;
+font-size: 20px;
+}
+.adv .products .card p{
+width: 200px;
+height: 38px;
+font-size: 16px;
+}
+
+.home .learning-content{
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
+}
+.home .learning-content h2{
+  max-width: 100%;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.home .learning-content button{
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+}
+.home .learning-boxes {
+  flex-direction: column;
+}
+.home .learning-boxes .box{
+width: 200px;
+height: 150px;
+}
+.home .learning-boxes img{
+  max-width: 50px;
+height:50px;
+}
+.home .learning-boxes h3{
+height: 15px;
+font-size: 16px;
+}
+.home .content-type span{
+  width: 300px;
+  height: 36px;
+  font-size: 28px;
+  }
+    /* end boxes */
+    .home .content-type .flex-type{
+      max-width: 100%;
+      margin-top: 100px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .home .content-type .text-type{
+      align-items: center;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .home .content-type .text-type h3{
+    font-size: 28px;
+    }
+    .home .content-type .text-type p{
+      width: 350px;
+    height: 62px;
+    font-size: 16px;
+    }
+    .home .content-type .flex-type button{
+      width: 220px;
+      height: 50px;
+      font-size: 16px;
+    }
+    .home .content-type  img{
+      width: 300px;
+    }
+}
